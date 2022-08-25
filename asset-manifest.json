@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yume-collection/static/css/main.66dd954e.css",
-    "main.js": "/yume-collection/static/js/main.98b45ad1.js",
+    "main.css": "/yume-collection/static/css/main.bacfc825.css",
+    "main.js": "/yume-collection/static/js/main.84df556d.js",
     "static/js/787.1d8586ba.chunk.js": "/yume-collection/static/js/787.1d8586ba.chunk.js",
     "index.html": "/yume-collection/index.html",
-    "main.66dd954e.css.map": "/yume-collection/static/css/main.66dd954e.css.map",
-    "main.98b45ad1.js.map": "/yume-collection/static/js/main.98b45ad1.js.map",
+    "main.bacfc825.css.map": "/yume-collection/static/css/main.bacfc825.css.map",
+    "main.84df556d.js.map": "/yume-collection/static/js/main.84df556d.js.map",
     "787.1d8586ba.chunk.js.map": "/yume-collection/static/js/787.1d8586ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66dd954e.css",
-    "static/js/main.98b45ad1.js"
+    "static/css/main.bacfc825.css",
+    "static/js/main.84df556d.js"
   ]
 }
