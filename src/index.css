@@ -15,3 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.theme-card-bg {
+  background-color: #e2f0ef;
+}
+
+.theme-bg {
+  background-color: #fafafa;
+}
+
+.theme-text-color {
+  color: #2e4746;
+}
+
+.theme-text-sub-color {
+  color: #4cbdb3;
+}

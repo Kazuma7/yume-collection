@@ -41,7 +41,7 @@ function App() {
   const [load, setLoad] = useState(false);
   const [profile, setProfile] = useState(false);
   const [wallet, setWallet] = useState();
-  const [isOwn, setIsOwn] = useState(false);
+  const [isOwn, setIsOwn] = useState({ own: false });
   const search = useLocation().search;
   const query2 = new URLSearchParams(search);
 
@@ -64,6 +64,7 @@ function App() {
     const tmpIsOwn = await contract.balanceOf(userAddress);
 
     if (tmpIsOwn.toString() != "0") {
+      console.log("true");
       const tmpOnwList = [
         {
           own: true,
@@ -71,6 +72,7 @@ function App() {
       ];
       setIsOwn(tmpOnwList);
     } else {
+      console.log("false");
       const tmpOnwList = [
         {
           own: false,
@@ -209,7 +211,7 @@ function App() {
       </Modal>
       <div className="">
         <div className="flex justify-between py-6 font-bold text-left px-10 bg-white">
-          <div>NFT配布サービス</div>
+          <div>コレクションページ</div>
           <div
             className="theme-text-sub-color cursor-pointer"
             onClick={openProfile}
@@ -217,7 +219,7 @@ function App() {
             アドレスの確認
           </div>
         </div>
-        <dir>{query2.get("userAddress")}</dir>
+        {/* <dir>{query2.get("userAddress")}</dir> */}
         <Collection ownList={isOwn} />
       </div>
     </div>
